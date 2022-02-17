@@ -275,6 +275,12 @@ function compare(a, b) {
 
 singers.sort(compare);
 
+//### aber warum geht das nicht so? ###/
+singers.sort((a, b) => {
+    return a.singers - b.singers
+});
+console.log(singers);
+
 
 
 
