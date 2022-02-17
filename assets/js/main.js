@@ -277,7 +277,7 @@ singers.sort(compare);
 
 //### aber warum geht das nicht so? ###/
 singers.sort((a, b) => {
-    return a.singers - b.singers
+    return a.name - b.name
 });
 console.log(singers);
 
